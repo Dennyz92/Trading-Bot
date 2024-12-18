@@ -7,8 +7,7 @@ import hashlib
 app = Flask(__name__)
 
 # Binance API credentials (replace with your keys)
-BINANCE_API_KEY = "dx5zqlJnIr0NDnIgZxP6vNxVOyFiWmy9gjiKYqsUpvQp2tNDv6wDtYiUHoA8f3zi
-"
+BINANCE_API_KEY = "dx5zqlJnIr0NDnIgZxP6vNxVOyFiWmy9gjiKYqsUpvQp2tNDv6wDtYiUHoA8f3zi"
 BINANCE_SECRET_KEY = "LwYHoI3j2HjrUgyfsxvDJmUvP4PoAoKKWqbBd1TIPJ8phHSZGMhrfA3jonykj6PU"
 
 @app.route('/', methods=['GET'])
